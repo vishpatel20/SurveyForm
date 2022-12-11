@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+    <meta charset = "utf-8">
+    <title>Registration Form</title>
+
+    <style>
+      h3 {
+        display: block;
+        font-size: 1.17em;
+        margin-top: 0em;
+        margin-bottom: 0em;
+        margin-left: 0;
+        margin-right: 0;
+        font-weight: bold;
+      }
+      </style>
+  </head>
+  
+  <body>
+    <form>
+        <h1>Registration Form</h1>
+        <hr>
+
+        <h2>Please provide your information below</h2>
+        <h3><label for="FullName">Name:</label></h3>
+        <input type="text" id="FullName" name="FullName" placeholder="John Doe" required><br><br>
+
+        <h3><label for="email">Email:</label></h3>
+        <input type="email" id="email" name="email" placeholder="12345@gmail.com" required><br><br>
+
+        <h3><label for="areaCode">Telephone:</label></h3>
+        <input type="tel" id="areaCode" name="areaCode" size="1" maxlength="3" required> - 
+
+        <label for="nextThree"></label>
+        <input type="tel" id="nextThree" name="nextThree" size="1" maxlength="3" required> - 
+
+        <label for="finalFour"></label>
+        <input type="tel" id="finalFour" name="finalFour" size="2" maxlength="4" required><br><br>
+        
+        <h3><label for="dob">Date of Birth:</label></h3>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <h3><label for="text">Gender</label></h3>
+        <input name="gender" id="male" type="radio" value="male">
+        <label for="male">Male</label>
+      
+        <input name="gender" id="female" type="radio" value="female">
+        <label for="female">Female</label>
+      
+        <input name="gender" id="other" type="radio" value="other">
+        <label for="other">Other</label><br><br>
+
+        <h3><label for="text">Household Size</label></h3>
+        <input type="number" id="text" name="text" min="1" max="50"><br><br>
+
+        <h3><label for="income">Annual Income</label></h3>
+        <select name="income" id="income">
+          <option value="$20,000k+">$20,000k+</option>
+          <option value="$40,000k+">$40,000k+</option>
+          <option value="$60,000k+">$60,000k+</option>
+          <option value="$80,000k+">$80,000k+</option>
+          <option value="$100,000k+">$100,000k+</option>
+        </select><br><br>
+
+        <h3><label>Message</label></h3>
+        <textarea rows="4" cols="30" placeholder="Enter your message..."></textarea><br><br>
+
+        <h3><label for="pass">Password:</label></h3>
+        <input type="text" id="pass" name="pass" required><br><br>
+
+        <h3><label for="passConfirm">Confirm Password:</label></h3>
+        <input type="text" id="passConfirm" name="passConfirm" required><br><br>
+
+        <input type="checkbox" id="link" value="link">
+        <label for="text">By signing up, your agree to the </label>
+        <a href="https://www.google.com/">Terms of Service</a><br><br>
+
+        <input type="submit">
+    </form>
+  </body>
