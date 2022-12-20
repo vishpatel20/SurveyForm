@@ -1,15 +1,17 @@
 body {
     text-align: center;
-    background-color: black;
+    background-color: grey;
     color: white;
 }
 form {
     border: 1px solid white;
+    background-color: black;
     width: 40%;
     margin: auto;
     height: max-content;
     text-align: left;
     padding: 20px 30px;
+    opacity: 0.8;
 }
 input {
     width: 70%;
@@ -17,4 +19,11 @@ input {
 }
 h3 {
     font-size: 25px;
+}
+.devslopes{
+    background-image: url("https://yt3.ggpht.com/ytc/AMLnZu93t6qWkUMrFhKeS_VLy2mHJF1sCQxhDnxs4N33Qg=s900-c-k-c0x00ffffff-no-rj");
+    background-size: cover;
+    width: 100%;
+    background-position: 50%;
+    opacity: 1;
 }
